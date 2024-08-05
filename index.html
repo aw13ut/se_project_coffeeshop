@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Coffee Shop Landing Page" />
+    <meta name="author" content="Software Engineer" />
+    <meta name="keywords" content="HTML, CSS" />
+    <link rel="stylesheet" href="pages/index.css" />
+    <link rel="stylesheet" href="vendor/normalize.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <title>Coffee Shop</title>
+</head>
+<body>
+    <div class="page">
+       <header class="header">
+            <nav class="nav">
+                <img src="./images/logo_coffeeshop_dark.svg"
+                     alt="Dark Logo"
+                     class="nav__logo"
+                     />
+                <ul class="nav__links">
+                    <li class="nav"><a href="#recipes" class="nav__link">Recipes</a></li>
+                    <li class="nav"><a href="" class="nav__link">Book a Table</a></li>
+                    <li class="nav"><a href="" class="nav__link">Menu</a></li>
+                    <li class="nav"><a href="" class="nav__link">Contacts</a></li>
+                </ul>
+            </nav>
+            <h1 class="header__title">
+              <span class="header__span-accent"> Specialty Coffee</span> in the Triple Peaks Library
+            </h1>
+          <p class="header__description">
+              Welcome to our study zone! We've got the coffee to energize you
+              and the cozy vibes to help you get creative.
+          </p>
+          <div class="header__footer">
+          <div>
+            <p class="header__paragraphs">Hours</p>
+            <p class="header__paragraphs">Monday-Friday(10:00-19:00)</p>
+            <p class="header__paragraphs">Saturday-Sunday(11:00-1800)</p>
+           </div>
+            <p class="header__paragraphs">200 Success Avenue, The Town of Triple Peaks</p>
+          </div>
+          <img src="./images/inside_coffee_shop.png" alt="Inside the coffee shop" class="image">
+       </header>
+        <main class="content">
+            <section class="recipes" id="recipes">
+                <img src="./images/background_recipes.svg" alt="Recipes Circles" class="background_image_recipes">
+                <header class="background_image_recipes"></header>
+                <h2 class="recipes__title">Recipes</h2>
+                <p class="recipes__subtitle">Check out some recipes we've collected for your home-brewing convenience:
+                </p>
+                <div class="recipes__videos">
+                 <div>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/j6VlT_jUVPc?si=uR3LSs6IowWjT5xE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                   <p class="recipes__video-caption"><span>Recipes</span><span> ~5 min </span></p>
+                 </div>
+                 <div>
+                   <iframe width="560" height="315" src="https://www.youtube.com/embed/st571DYYTR8?si=mo95EKrip5rWjRe7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                   <p class="recipes__video-caption"><span>Press Recipe</span><span>~15 min</span></p>
+                 </div>
+                </div>
+            </section>
+            <section class="recipes"></section>
+            <section class="reservation"></section>
+            <section class="menu"></section>
+            <section class="about"></section>
+        </main>
+
+        </footer>
+    </div>
+</body>
+</html>
