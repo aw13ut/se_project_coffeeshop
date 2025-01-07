@@ -1,5 +1,5 @@
 .footer {
-  background: linear-gradient(180deg, #0A2850 0%, #071931 100%);
+  background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
   font-family: "Inter", Arial, sans-serif;
   color: white;
   padding: 60px 80px;
@@ -21,7 +21,7 @@
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 44px;
+  font-size: 16px;
   line-height: 52px;
 }
 
@@ -40,18 +40,18 @@
   margin-right: 10px;
 }
 
- .footer__social-link {
+.footer__social-link {
   color: white;
   text-decoration: none;
   display: flex;
   align-items: center;
   transition: 0.5s;
- }
+}
 
- .footer__social-link:hover {
+.footer__social-link:hover {
   opacity: 70%;
- }
+}
 
- .footer__copyright {
+.footer__copyright {
   margin: 108px 0 0;
- }
+}

@@ -9,12 +9,11 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: right;
-  font-family: "Noto Serif", Arial, sans-serif;
+  font-family: "Noto Serif", 'Times New Roman', sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 60px;
   line-height: 72px;
-  letter-spacing: -0.6px;
   position: relative;
 }
 
@@ -24,7 +23,7 @@
   right: 5px;
   width: 646px;
   height: 568px;
-  z-index: +1;
+  z-index: 1;
 }
 
 .header__title {
@@ -42,14 +41,13 @@
   display: block;
   font-style: italic;
   font-family: "Noto Serif", Arial, sans-serif;
-  font-style: italic;
   font-weight: normal;
   font-size: 60px;
   line-height: 72px;
 }
 
 .header__description {
-  font-family: "Noto Serif" "Times New Roman", serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-size: 20px;
   line-height: 30px;
   margin: 28px 0 0;
@@ -60,7 +58,6 @@
   margin-top: auto;
   display: flex;
   justify-content: space-between;
-  margin-bottom: 40px;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -71,15 +68,4 @@
 
 .header__paragraph {
   margin: 0;
-}
-
-.header__footer {
-  display: flex;
-  justify-content: space-between;
-  font-family: "Inter", Arial, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
-  color: #6f6f6f;
 }
